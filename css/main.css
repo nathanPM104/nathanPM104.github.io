@@ -1507,7 +1507,7 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 #home {
   width: auto;
-  height: 50%;
+  height: 70%;
   /* background-size: cover; */
   /* background-color: #151515; */
   background-image: url(../images/hero-panda.png);
@@ -1517,7 +1517,7 @@ header .header-logo a {
   -moz-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 804px;
+  /* min-height: 804px; */
   position: relative;
 }
 #home .overlay {
@@ -1525,9 +1525,9 @@ header .header-logo a {
   top: 0;
   left: 0;
   width: 10%;
-  height: 10%%;
+  height: 10%;
   opacity: .2;
-  background-color: #19191b;
+  background-color: #15ff00;
 }
 
 .home-content-table {
