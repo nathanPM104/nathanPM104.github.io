@@ -1506,8 +1506,9 @@ header .header-logo a {
  *
  * ------------------------------------------------------------------- */
 #home {
-  width: auto;
-  height: 100%;
+  /* width: auto;
+  height: 100%; */
+  background-size: cover;
   background-color: #151515;
   background-image: url(../images/hero-panda.png);
   background-repeat: no-repeat;
