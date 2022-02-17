@@ -1516,7 +1516,7 @@ header .header-logo a {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-attachment: initial;
+  background-attachment: fixed;
   min-height: 804px;
   position: relative;
 }
