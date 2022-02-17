@@ -1517,7 +1517,7 @@ header .header-logo a {
   -moz-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  /* min-height: 804px; */
+  min-height: 804px;
   position: relative;
 }
 #home .overlay {
