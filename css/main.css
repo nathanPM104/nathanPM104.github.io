@@ -1672,7 +1672,109 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * responsive:
  * home section 
  * ------------------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 640px) {
+  .home-content-tablecell h3 {
+    font-size: 2.1rem;
+  }
+  .home-content-tablecell h1 {
+    font-size: 7rem;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .home-content-tablecell h3 {
+    font-size: 2rem;
+  }
+  .home-content-tablecell h1 {
+    font-size: 6rem;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .home-content-tablecell .row {
+    max-width: 600px;
+  }
+  .home-content-tablecell h3 {
+    font-size: 1.8rem;
+  }
+  .home-content-tablecell h1 {
+    font-size: 5.2rem;
+  }
+  .home-content-tablecell h1 br {
+    display: none;
+  }
+
+  .home-social-list {
+    left: 36px;
+    bottom: 30px;
+    font-size: 2.1rem;
+  }
+  .home-social-list::before {
+    height: 30px;
+  }
+
+  .scrolldown .scroll-icon {
+    font-size: 1.2rem;
+    top: 24px;
+    right: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #home {
+    min-height: 702px;
+  }
+
+  .home-content-tablecell .row {
+    max-width: 480px;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  .home-content-tablecell h3 {
+    font-size: 1.7rem;
+  }
+  .home-content-tablecell h1 {
+    font-size: 4.8rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .home-content-tablecell .row {
+    max-width: 420px;
+  }
+  .home-content-tablecell h3 {
+    font-size: 1.5rem;
+  }
+  .home-content-tablecell h1 {
+    font-size: 4.2rem;
+  }
+
+  .home-social-list {
+    left: 30px;
+    bottom: 30px;
+    font-size: 1.8rem;
+  }
+  .home-social-list::before {
+    height: 24px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #home {
+    min-height: 654px;
+  }
+
+  .home-content-tablecell .row {
+    padding-top: 4.8rem;
+    padding-bottom: 10.8rem;
+  }
+  .home-content-tablecell h3 {
+    font-size: 1.4rem;
+  }
+  .home-content-tablecell h1 {
+    font-size: 3.6rem;
+  }
+}
+
+/* =========================================
+* Orginal code */
+
+/* @media only screen and (max-width: 1200px) {
   .home-content-tablecell h3 {
     font-size: 2.1rem;
   }
@@ -1769,7 +1871,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .home-content-tablecell h1 {
     font-size: 3.6rem;
   }
-}
+} */
+
 
 
 /* ===================================================================
